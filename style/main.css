@@ -1,0 +1,128 @@
+/* common */
+body{
+  margin: 0;
+    background-color: #F7F7EE;
+    color: #6A197D;
+}
+
+.navbar{
+  background-color: #6A197D;
+  color: #F5F5F5;
+  height: 75px;
+  padding-top: 25px;
+}
+
+.welcome{
+  margin:0;
+  padding-left: 10px;
+  display: inline-block;
+  color: #F5F5F5;
+}
+
+.option{
+  position: relative;
+  left: 35%;
+  display: inline-block;
+  padding: 10px 50px 0;
+  font-size: 1.15rem;
+  color: #F5F5F5;
+}
+
+.option:hover{
+  cursor: pointer;
+  color: grey;
+}
+
+.center-align{
+  text-align: center;
+}
+
+/* index */
+.intro{
+  display: inline-block;
+  position: relative;
+  padding-top: 3%;
+  left: 15%;
+  font-size: 1.5rem;
+
+}
+
+/* create */
+
+.form-entry{
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-left: 20%;
+}
+
+label{
+  display: inline-block;
+  width: 30%;
+}
+
+.myButton{
+  margin: 40px;
+  margin-left: 45%;
+  cursor: pointer;
+}
+
+.warning{
+  margin: auto;
+  color: red;
+  text-align: center;
+}
+
+/* view */
+
+.title{
+  background-color: #FFA5B0;
+  color: white;
+  padding: 15px 0 15px 30px;
+  margin: 15px 0;
+}
+
+.display-invites{
+  font-size: 1.15rem;
+  cursor: pointer;
+  color: #6A197D;
+}
+
+a{
+  text-decoration: none;
+}
+
+.display-invites:hover, .choice:hover{
+  color: #FFA5B0;
+}
+
+/* dynamic */
+.invite-box{
+  margin: 20px;
+  font-size: 1.5rem;
+}
+
+.invite-heading{
+  display: inline-block;
+  width: 30%;
+  margin: 0;
+}
+
+.invite-box{
+  padding: 40px 40px 0 40px;
+  margin: 0 0 0 10%;
+}
+
+.choice{
+  font-size: 2rem;
+  color: #6A197D;
+  display: inline-block;
+  margin: 0 70px;
+}
+
+.choice-box{
+  padding: 20px 0 50px 0;
+  margin:auto;
+  display: inline-block;
+  position: relative;
+  left: 30%;
+}

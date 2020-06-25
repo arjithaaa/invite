@@ -1,0 +1,32 @@
+body{
+  background-color: #FFA5B0;
+}
+
+label{
+  display: inline-block;
+  width: 50%;
+}
+
+.form-box{
+  background-color: #F5F5F5;
+  width: 40%;
+  margin: 10% auto 0;
+  padding: 3%;
+  color: #6A197D;
+  border-radius: 3%;
+}
+
+.center-align{
+  text-align: center;
+}
+
+button{
+  margin-left: 42%;
+  cursor: pointer;
+}
+
+
+.warning{
+  margin: auto;
+  color: red;
+}
