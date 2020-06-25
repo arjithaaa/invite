@@ -35,9 +35,12 @@ if (!isset($_SESSION['username']))
       <h2 class="title">Sent Invites</h2>
       <ul>
         <?php
+        $check = "";
 while ($inv = mysqli_fetch_assoc($result))
 {
+    if($inv['head']==$check)continue;
     echo "<a href = 'dynamic.php?inv_no={$inv['inv_no']}'><li class='display-invites'>{$inv['head']}</li></a>";
+    $check = $inv['head'];
 }
 ?>
       </ul>
